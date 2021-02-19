@@ -1,0 +1,77 @@
+body {
+    font-family: sans-serif;
+    font-size: 16px;
+    background: url(./images/ochir-erdene-oyunmedeg-LmyPLbbUWhA-unsplash.jpg) no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+h1 {
+    margin: 8% auto 0;
+    text-align: center;
+    background-color: #f3ec78;
+    background-image: linear-gradient(to right, #002a68, #02b1a8);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+    text-shadow: 1px 1px 8px white;
+}
+.container {
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 0 auto 10%;
+    background: linear-gradient(to bottom right,  rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.3) 50%, rgba(255, 255, 255, 0.2));
+    backdrop-filter: blur(5px);
+}
+ .display {
+    background-color: rgba(255,255,255,0.6);
+    min-height: 5rem;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    text-align: right;
+    line-height: 1em;
+    word-wrap: break-word;
+}
+.btn-area {
+    margin: 0.5rem;
+}
+.btn-row {
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row-reverse wrap;
+    justify-content: center;
+}
+button {
+    height: 3rem;
+    margin: 0.1rem auto;
+    width: 24%;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(0,0,0,1);
+    font-size: 20px;
+    font-weight: bold;
+    background: #e1faf2;
+    opacity: 80%;
+    border: 1px solid grey;
+    border-radius: 5px;
+    outline: none;
+}
+#delete, #clear, #num0, #dot {
+    width: 36.5%;
+}
+#dot {
+    font-size: 30px;
+}
+button:hover {
+    background-color: rgba(255,255,255, 1);
+    transition: ease;
+}
+button:active {
+    background-color: rgba(255,255,255, 0.8);
+}

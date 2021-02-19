@@ -41,6 +41,7 @@ function compute() {
     displayOutput.innerText = ""
     return
   }
+  // temporarily use eval() may be change sooner or later
   result = eval(inputString)
   displayOutput.innerText = result
 }
