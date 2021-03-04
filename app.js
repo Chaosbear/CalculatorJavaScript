@@ -26,7 +26,7 @@ function addOperation(operatorElem) {
 
     isEqual = false
     
-    if (["+","-","×","÷"].includes(inputString.slice(-1))) {
+    if (["+","-","*","/"].includes(inputString.slice(-1))) {
         displayInput.innerText = displayInput.innerText.slice(0, -1) + operatorElem.innerText
         inputString = inputString.slice(0,-1) + operatorElem.getAttribute("id")
         return
